@@ -1,0 +1,14 @@
+
+    ---
+    version: "3"
+
+    services:
+       flask-app:
+           build:
+               context: ./
+               dockerfile: ./Dockerfile
+           ports:
+               - 5000:5000
+           image: sambaoteng/iss_tracker_midt:project
+            
+             
